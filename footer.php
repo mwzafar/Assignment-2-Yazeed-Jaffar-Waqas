@@ -1,4 +1,4 @@
-</div>
+</div> 
 <!--/ content -->
 <!-- footer
   <footer data-role="footer">
