@@ -123,4 +123,4 @@ while(oci_fetch($stmt)) {
 OCILogOff ($connect);
 include("footer.php");
 
-?> hh
+?>
