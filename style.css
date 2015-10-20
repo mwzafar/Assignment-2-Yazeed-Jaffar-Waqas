@@ -1,0 +1,194 @@
+﻿/* Yazeed Alnusayri
+ID: 211344614 */
+
+#container {
+    width:100%;
+    text-align:center;
+}
+
+#left {
+    float:left;
+    width:35%;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:100px;
+}
+
+#right {
+    float:right;
+    width:35%;
+}
+
+/*The .img-thumbnail class shapes the image to a thumbnail:*/
+.img-thumbnail{
+	display:inline-block;
+	max-width:100%;
+	height:auto;
+	padding:4px;
+	line-height:1.42857143;
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-radius:4px;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out
+}
+/*The .img-thumbnail class shapes the image to a thumbnail:*/
+.img-thumbnail, .thumbnail {
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+    box-shadow: 0 1px 2px rgba(0,0,0,.075);
+}
+/*The .img-thumbnail class shapes the image to a thumbnail:*/
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*to define different style rules*/
+@media screen and (max-width:460px){
+	.img-thumbnail{
+		max-width:100px;		
+	}
+
+}
+/*to define different style rules*/
+@media screen and (min-width:980px){
+	.ui-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:979px; 
+    text-align:center;    
+	}
+	header,footer {
+    width:979px;    
+	}
+	.welcome{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:979px;
+	}
+	
+}
+/* responsive design for images */
+.img-responsive{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* align header and footer to center */
+header,footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* change background color of content 649B3D c4c4c4 */
+.ui-content{
+	background-color:#dfdede;
+	padding-top: 0px;
+}
+/* remove border from header and footer */
+.ui-header, .ui-footer {
+    border-width: 0px 0;
+    border-style: solid;
+    position: relative;
+
+}
+/* create text color and shadow */
+.white_text{
+color:#FFFFFF;
+text-shadow: 0 0px 0 #f3f3f3; 
+text-align:left;
+}
+/* create shape to my photo */
+.img-circle {
+    border-radius: 30%;	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* maps google setting*/*/
+#map {
+        width:100%;
+   height:400px;
+}
+
+.button_like {
+    background-image: url(like.png);
+    background-color: hsl(0, 0%, 97%);
+    background-repeat: no-repeat; 
+    background-position: 2px 0;
+    border: none;           
+    cursor: pointer;       
+    height: 32px;          
+    padding-left: 40px;    
+    vertical-align: middle;
+    color: hsl(0, 0%, 33%);
+    border-color: hsl(0, 0%, 60%);
+    -webkit-box-shadow: inset 0 1px 0 hsl(0, 100%, 100%),0 1px 0 hsla(0, 0%, 0%, .08);
+    box-shadow: inset 0 1px 0 hsl(0, 100%, 100%),0 1px 0 hsla(0, 0%, 0%, .08);
+ 
+}
+.button_unlike {
+    background-image: url(like.png);
+    background-color: hsl(0, 0%, 97%);
+    background-repeat: no-repeat; 
+    background-position: 2px -31px;
+    border: none;           
+    cursor: pointer;       
+    height: 32px;          
+    padding-left: 40px;    
+    vertical-align: middle;
+    color: hsl(0, 0%, 33%);
+    border-color: hsl(0, 0%, 60%);
+    -webkit-box-shadow: inset 0 1px 0 hsl(0, 100%, 100%),0 1px 0 hsla(0, 0%, 0%, .08);
+    box-shadow: inset 0 1px 0 hsl(0, 100%, 100%),0 1px 0 hsla(0, 0%, 0%, .08);
+ 
+}
+.grid
+{
+    height: 100px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align:middle;
+}
+
+jqm-block-content {
+    margin: .5em;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid #eee;
+    -webkit-border-radius: .3125em;
+    border-radius: .3125em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ui-block-a, .ui-block-b, .ui-block-c, .ui-block-d, .ui-block-e {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
